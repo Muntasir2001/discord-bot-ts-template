@@ -13,8 +13,9 @@ const client = new Client({
 		GatewayIntentBits.DirectMessages,
 		GatewayIntentBits.GuildPresences,
 		GatewayIntentBits.GuildMembers,
+		GatewayIntentBits.GuildModeration,
 	],
-	partials: [Partials.Channel],
+	partials: [Partials.Channel, Partials.Message, Partials.Reaction],
 });
 
 //status of the bot

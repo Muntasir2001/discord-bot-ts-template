@@ -8,12 +8,12 @@
 		"prod": "npm run build && npm run start-js"
 	},
 	"dependencies": {
-		"discord.js": "^14.13.0",
-		"dotenv": "^16.3.1"
+		"discord.js": "^14.16.3",
+		"dotenv": "^16.4.5"
 	},
 	"devDependencies": {
-		"@types/node": "^20.5.7",
-		"ts-node": "^10.9.1",
-		"typescript": "^5.2.2"
+		"@types/node": "^20.17.0",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.6.3"
 	}
 }
